@@ -1,0 +1,20 @@
+Serverless: Stack update finished...
+Service Information
+service: ilab-hackathon-chatbot
+stage: dev
+region: us-east-1
+stack: ilab-hackathon-chatbot-dev
+api keys:
+  None
+endpoints:
+  POST - https://mx99ehykf8.execute-api.us-east-1.amazonaws.com/dev/register
+  GET - https://mx99ehykf8.execute-api.us-east-1.amazonaws.com/dev/register
+  GET - https://mx99ehykf8.execute-api.us-east-1.amazonaws.com/dev/register/{id}
+  PUT - https://mx99ehykf8.execute-api.us-east-1.amazonaws.com/dev/register/{id}
+  DELETE - https://mx99ehykf8.execute-api.us-east-1.amazonaws.com/dev/register/{id}
+functions:
+  create: ilab-hackathon-chatbot-dev-create
+  list: ilab-hackathon-chatbot-dev-list
+  get: ilab-hackathon-chatbot-dev-get
+  update: ilab-hackathon-chatbot-dev-update
+  delete: ilab-hackathon-chatbot-dev-delete
